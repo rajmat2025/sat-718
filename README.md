@@ -43,27 +43,25 @@ No database and no cloud — everything stays on the computer running the app.
 
 | Data | Location | Notes |
 | --- | --- | --- |
-| **Test results / score history** | `data/attempts/` (one JSON file per attempt) | The source of truth. Full question-by-question detail, attributed to the signed-in student. Survives browser cache clears. Results always land on the machine running the app, even when the test is taken from another device. |
-| **Imported tests** | `data/tests/` (one JSON file per test) | Tests an admin imports through the app. Shared to everyone, so a student sees the tests the admin added. Admin-only to create/delete. |
-| **Accounts** | `data/auth.json` | Hashed passwords + a random session secret. Seeded on first run. |
+| **Test results / score history** | `<data>/attempts/` (one JSON file per attempt) | The source of truth. Full question-by-question detail, attributed to the signed-in student. Survives browser cache clears. Results always land on the machine running the app, even when the test is taken from another device. |
+| **Imported tests** | `<data>/tests/` (one JSON file per test) | Tests an admin imports through the app. Shared to everyone, so a student sees the tests the admin added. Admin-only to create/delete. |
+| **Accounts** | `<data>/auth.json` | Hashed passwords + a random session secret. Seeded on first run. |
 | **Bundled tests** | `public/tests/*.json` + `public/tests/manifest.json` | Ship a test with the app by dropping its JSON here and adding the filename to `manifest.json`. |
 
-The data folder (and everything in it) is created automatically on first run. Back it up by copying it.
+`<data>` is the data folder described below (by default `~/sat-prep-data`). It (and everything in it) is created automatically on first run. Back it up by copying it.
 
 ### Where the data folder lives (and surviving deployments)
 
-By default the folder is `<project>/data`. **On a hosted/deployed setup, set the `SAT_DATA_DIR` environment variable to a path _outside_ the deploy directory** — otherwise a redeploy that replaces the app folder can wipe your tests and attempts.
+To keep score history from being wiped on every redeploy, the data folder lives **outside the app directory by default**: `~/sat-prep-data` (the home directory of the account running the app). The home directory persists across deployments, so `git checkout` / re-upload / rebuild of the app folder can't touch it.
 
-```bash
-# e.g. on Hostinger (adjust the username); create it once, then set the env var
-SAT_DATA_DIR=/home/u123456789/sat-data
-```
+- **No configuration needed** for this — it's the default. Set `SAT_DATA_DIR` only if you want an explicit path (see `.env.example`).
+- **Automatic migration:** on startup, if `~/sat-prep-data` doesn't exist yet but an old in-project `./data` folder does, its contents are copied over once (the source is never deleted). So upgrading preserves existing accounts, tests, and attempts.
+- All data lives together under the folder: `.../attempts`, `.../tests`, `auth.json`.
+- The app **only ever adds files, or removes one when an admin explicitly deletes it** — no code path (build, deploy, or feature) bulk-deletes tests or attempts.
 
-- All four data locations above move together under `SAT_DATA_DIR` (`.../attempts`, `.../tests`, `auth.json`).
-- The app **only ever adds files, or removes one when an admin explicitly deletes it** — no code path (build, deploy, or feature) bulk-deletes tests or attempts. Keeping the data outside the deploy directory means `git pull` / re-upload / rebuild can't touch it either.
-- See `.env.example`. After changing `SAT_DATA_DIR`, move any existing `data/` contents to the new location so history carries over.
+> Preserving existing live data on first upgrade: if your Hostinger instance currently has attempts you want to keep, back up its `data/` folder and drop the contents into `~/sat-prep-data` on the server before/after deploying this change.
 
-> Deploy checklist: (1) point `SAT_DATA_DIR` at a persistent path outside the app root, (2) never expose `next dev` publicly — build and run with `npm run build && npm start`, (3) change the default `admin`/`sofia` passwords (see the security note below).
+> Deploy checklist: (1) data already persists in `~/sat-prep-data` by default (override with `SAT_DATA_DIR` only if needed), (2) never expose `next dev` publicly — build and run with `npm run build && npm start`, (3) change the default `admin`/`sofia` passwords (see the security note below).
 
 ## Security notes (for public/hosted deployments)
 
