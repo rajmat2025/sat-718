@@ -1,0 +1,437 @@
+{
+  "id": "sat-practice-1",
+  "title": "SAT practice test 1",
+  "description": "Mixed-difficulty full test: Reading & Writing plus Math, one hour total.",
+  "sections": [
+    {
+      "name": "Reading & Writing",
+      "minutes": 30,
+      "questions": [
+        {
+          "q": "The archaeologist's findings were so ______ that they overturned decades of accepted theory about the settlement's origins.",
+          "choices": [
+            "trivial",
+            "consequential",
+            "predictable",
+            "ambiguous"
+          ],
+          "answer": 1,
+          "explanation": "Findings that overturn decades of theory are highly important — 'consequential.'",
+          "topic": "Words in Context"
+        },
+        {
+          "q": "Although the novelist's early works were praised for their exuberant prose, critics noted that her later style became increasingly ______, stripped of all but the most essential words.",
+          "choices": [
+            "ornate",
+            "spare",
+            "derivative",
+            "whimsical"
+          ],
+          "answer": 1,
+          "explanation": "'Stripped of all but the most essential words' signals a minimal style — 'spare.'",
+          "topic": "Words in Context"
+        },
+        {
+          "q": "Urban beekeeping has surged in popularity, but recent studies suggest that dense concentrations of hobbyist hives may harm wild pollinators. Honeybees can outcompete native bees for limited floral resources, and diseases can spread from managed colonies to wild populations.\n\nWhich choice best states the main idea?",
+          "choices": [
+            "Urban beekeeping is the best way to protect pollinators.",
+            "Wild bees pollinate more efficiently than honeybees.",
+            "The growth of urban beekeeping may unintentionally harm wild pollinators.",
+            "Diseases in managed colonies cannot be controlled."
+          ],
+          "answer": 2,
+          "explanation": "The passage presents beekeeping's popularity, then evidence of unintended harm to wild pollinators.",
+          "topic": "Central Ideas & Details"
+        },
+        {
+          "q": "Researchers found that participants who wrote about their anxieties for ten minutes before an exam scored significantly higher than those who sat quietly. The researchers hypothesized that expressive writing frees up working memory otherwise occupied by worry.\n\nIt most logically follows that:",
+          "choices": [
+            "worry can consume cognitive resources needed for test performance.",
+            "writing improves grammar skills.",
+            "quiet reflection is harmful in all contexts.",
+            "exams should be shorter."
+          ],
+          "answer": 0,
+          "explanation": "If writing frees memory 'occupied by worry,' worry must be using resources needed for the test.",
+          "topic": "Inferences"
+        },
+        {
+          "q": "The collection of rare manuscripts, along with several first-edition novels, ______ housed in the library's climate-controlled vault.",
+          "choices": [
+            "are",
+            "is",
+            "were",
+            "have been"
+          ],
+          "answer": 1,
+          "explanation": "The subject is the singular 'collection'; the phrase 'along with...' doesn't change the number.",
+          "topic": "Subject-Verb Agreement"
+        },
+        {
+          "q": "The hiking trail offers three challenges for ______ steep switchbacks, loose gravel, and sudden weather changes.",
+          "choices": [
+            "visitors:",
+            "visitors;",
+            "visitors",
+            "visitors, and"
+          ],
+          "answer": 0,
+          "explanation": "A colon correctly introduces the list after an independent clause.",
+          "topic": "Punctuation"
+        },
+        {
+          "q": "By the time the orchestra finished tuning, the conductor ______ the stage.",
+          "choices": [
+            "had already taken",
+            "already takes",
+            "will already take",
+            "is already taking"
+          ],
+          "answer": 0,
+          "explanation": "An action completed before another past action takes the past perfect: 'had already taken.'",
+          "topic": "Verb Tense"
+        },
+        {
+          "q": "Solar panel efficiency has improved dramatically over the past decade. ______, the cost of installation has fallen by more than half.",
+          "choices": [
+            "However",
+            "Moreover",
+            "Nevertheless",
+            "In contrast"
+          ],
+          "answer": 1,
+          "explanation": "The second sentence adds another positive development, so an additive transition ('Moreover') fits.",
+          "topic": "Transitions"
+        },
+        {
+          "q": "The team expected the excavation to take three weeks. ______, unstable soil conditions delayed the project by two months.",
+          "choices": [
+            "Similarly",
+            "For example",
+            "However",
+            "Therefore"
+          ],
+          "answer": 2,
+          "explanation": "The outcome contradicts the expectation, so a contrast transition ('However') is needed.",
+          "topic": "Transitions"
+        },
+        {
+          "q": "A student wants to emphasize how quickly the Arctic tern completes its migration. Notes: migrates about 44,000 miles annually; can live 30 years; finishes migration in roughly 90 days; eats small fish.\n\nWhich choice most effectively uses relevant information from the notes?",
+          "choices": [
+            "The Arctic tern completes its 44,000-mile migration in roughly 90 days.",
+            "The Arctic tern can live for up to 30 years.",
+            "The Arctic tern feeds mainly on small fish.",
+            "The Arctic tern is a seabird found in polar regions."
+          ],
+          "answer": 0,
+          "explanation": "Only this choice pairs the distance with the short time frame, emphasizing speed.",
+          "topic": "Rhetorical Synthesis"
+        },
+        {
+          "q": "The negotiations reached an impasse; neither delegation was willing to ______ on the central issue.",
+          "choices": [
+            "elaborate",
+            "compromise",
+            "capitalize",
+            "deliberate"
+          ],
+          "answer": 1,
+          "explanation": "An impasse results when neither side will make concessions — 'compromise.'",
+          "topic": "Words in Context"
+        },
+        {
+          "q": "A food critic describes a restaurant's tasting menu course by course, noting that while individual dishes dazzled, the meal as a whole lacked coherence.\n\nWhich choice best describes the main purpose of the text?",
+          "choices": [
+            "To argue that tasting menus are overpriced",
+            "To evaluate a dining experience, distinguishing its parts from its overall effect",
+            "To explain how the dishes were prepared",
+            "To praise the meal's coherence"
+          ],
+          "answer": 1,
+          "explanation": "The critic judges the parts (dazzling) separately from the whole (incoherent) — an evaluation.",
+          "topic": "Text Purpose"
+        },
+        {
+          "q": "Carved from a single block of marble, ______",
+          "choices": [
+            "the museum acquired the sculpture for a record price.",
+            "the sculpture was acquired by the museum for a record price.",
+            "a record price was paid by the museum for the sculpture.",
+            "the museum's acquisition of the sculpture set a record."
+          ],
+          "answer": 1,
+          "explanation": "The modifier describes the sculpture, so 'the sculpture' must follow the comma.",
+          "topic": "Modifiers"
+        },
+        {
+          "q": "The committee will announce ______ decision after reviewing all applications.",
+          "choices": [
+            "it's",
+            "its",
+            "their",
+            "they're"
+          ],
+          "answer": 1,
+          "explanation": "'Committee' is singular, and the possessive form is 'its' (no apostrophe).",
+          "topic": "Pronouns & Possessives"
+        },
+        {
+          "q": "Certain deep-sea fish have highly developed eyes even though sunlight never reaches their habitat. Researchers now believe these eyes evolved to detect the flashes of bioluminescent organisms. In other words, the deep sea is not entirely dark; it is faintly illuminated by ______",
+          "choices": [
+            "sunlight filtering from above.",
+            "light produced by living organisms.",
+            "volcanic activity on the seafloor.",
+            "reflections from the ocean surface."
+          ],
+          "answer": 1,
+          "explanation": "The passage credits bioluminescent flashes — light produced by living organisms.",
+          "topic": "Inferences"
+        },
+        {
+          "q": "Far from being a ______ observer, the journalist actively shaped the events she claimed merely to report.",
+          "choices": [
+            "detached",
+            "meticulous",
+            "seasoned",
+            "candid"
+          ],
+          "answer": 0,
+          "explanation": "'Far from' sets up the opposite of 'actively shaped' — an uninvolved, 'detached' observer.",
+          "topic": "Words in Context"
+        },
+        {
+          "q": "Maya Angelou ______ published her first memoir in 1969.",
+          "choices": [
+            ", who was also a poet,",
+            " who was also a poet",
+            "who was also a poet,",
+            ", who was also a poet"
+          ],
+          "answer": 0,
+          "explanation": "A nonrestrictive clause needs commas on both sides.",
+          "topic": "Punctuation"
+        },
+        {
+          "q": "Neither the manager nor the employees ______ aware of the policy change.",
+          "choices": [
+            "was",
+            "is",
+            "were",
+            "has been"
+          ],
+          "answer": 2,
+          "explanation": "With 'neither...nor,' the verb agrees with the nearer subject — the plural 'employees.'",
+          "topic": "Subject-Verb Agreement"
+        },
+        {
+          "q": "For decades, textbooks described the brain as fixed after childhood. Research on neuroplasticity has upended this view, showing that adult brains continually form new connections in response to learning and experience.\n\nWhich choice best states the main idea?",
+          "choices": [
+            "Childhood is the only period of brain growth.",
+            "Research has revised the once-standard view that the adult brain cannot change.",
+            "Textbooks are unreliable sources of information.",
+            "Learning becomes impossible in adulthood."
+          ],
+          "answer": 1,
+          "explanation": "The passage contrasts the old 'fixed brain' view with newer research showing ongoing change.",
+          "topic": "Central Ideas & Details"
+        },
+        {
+          "q": "The reason why the experiment failed was because of the fact that the samples were contaminated.\n\nWhich choice is the most effective revision?",
+          "choices": [
+            "(as it is now)",
+            "The experiment failed because the samples were contaminated.",
+            "Owing to the fact of contamination, failure of the experiment occurred.",
+            "The failure's reason was the samples' contamination being present."
+          ],
+          "answer": 1,
+          "explanation": "'The reason why...was because of the fact that' is redundant; the revision is direct and concise.",
+          "topic": "Concision & Style"
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "minutes": 30,
+      "questions": [
+        {
+          "q": "If 3x + 7 = 22, what is the value of x?",
+          "choices": [
+            "3",
+            "5",
+            "7",
+            "15"
+          ],
+          "answer": 1,
+          "explanation": "3x = 15, so x = 5.",
+          "topic": "Linear Equations"
+        },
+        {
+          "q": "A line passes through the points (0, 4) and (2, 10). What is the slope of the line?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": 1,
+          "explanation": "Slope = (10 − 4) / (2 − 0) = 6/2 = 3.",
+          "topic": "Linear Functions"
+        },
+        {
+          "q": "If x + y = 10 and x − y = 4, what is the value of x?",
+          "choices": [
+            "3",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": 3,
+          "explanation": "Adding the equations: 2x = 14, so x = 7.",
+          "topic": "Systems of Equations"
+        },
+        {
+          "q": "What is 40% of 250?",
+          "choices": [
+            "90",
+            "100",
+            "110",
+            "125"
+          ],
+          "answer": 1,
+          "explanation": "0.40 × 250 = 100.",
+          "topic": "Percentages"
+        },
+        {
+          "q": "If f(x) = 2x² − 3x + 1, what is f(3)?",
+          "choices": [
+            "8",
+            "10",
+            "12",
+            "16"
+          ],
+          "answer": 1,
+          "explanation": "f(3) = 2(9) − 9 + 1 = 18 − 9 + 1 = 10.",
+          "topic": "Functions"
+        },
+        {
+          "q": "A rectangle has a perimeter of 36 and its length is twice its width. What is its area?",
+          "choices": [
+            "54",
+            "64",
+            "72",
+            "81"
+          ],
+          "answer": 2,
+          "explanation": "2(w + 2w) = 36 gives w = 6, length = 12, area = 72.",
+          "topic": "Geometry"
+        },
+        {
+          "q": "What is the sum of the solutions of x² − 5x + 6 = 0?",
+          "choices": [
+            "−5",
+            "1",
+            "5",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "The equation factors as (x−2)(x−3)=0; solutions 2 and 3 sum to 5.",
+          "topic": "Quadratics"
+        },
+        {
+          "q": "The equation of a circle is (x − 2)² + (y + 3)² = 25. What is the radius of the circle?",
+          "choices": [
+            "5",
+            "25",
+            "√5",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "r² = 25, so r = 5.",
+          "topic": "Geometry"
+        },
+        {
+          "q": "The average of five numbers is 12. Four of the numbers are 10, 11, 13, and 14. What is the fifth number?",
+          "choices": [
+            "10",
+            "12",
+            "14",
+            "15"
+          ],
+          "answer": 1,
+          "explanation": "The sum must be 60; 10+11+13+14 = 48, so the fifth number is 12.",
+          "topic": "Statistics"
+        },
+        {
+          "q": "Which expression is equivalent to (x³)² · x⁴?",
+          "choices": [
+            "x⁹",
+            "x¹⁰",
+            "x¹⁴",
+            "x²⁴"
+          ],
+          "answer": 1,
+          "explanation": "(x³)² = x⁶, and x⁶ · x⁴ = x¹⁰.",
+          "topic": "Exponents"
+        },
+        {
+          "q": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+          "choices": [
+            "9",
+            "10",
+            "12",
+            "14"
+          ],
+          "answer": 1,
+          "explanation": "√(36 + 64) = √100 = 10.",
+          "topic": "Geometry"
+        },
+        {
+          "q": "A bag contains 4 red marbles and 6 blue marbles. If one marble is drawn at random, what is the probability it is red?",
+          "choices": [
+            "1/5",
+            "2/5",
+            "3/5",
+            "2/3"
+          ],
+          "answer": 1,
+          "explanation": "4 out of 10 marbles are red: 4/10 = 2/5.",
+          "topic": "Probability"
+        },
+        {
+          "q": "If 2ˣ = 32, what is the value of x?",
+          "type": "grid",
+          "answer": "5",
+          "explanation": "2⁵ = 32, so x = 5.",
+          "topic": "Exponents"
+        },
+        {
+          "q": "A gym charges a one-time $10 signup fee plus $25 per month. What is the total cost, in dollars, for 6 months of membership?",
+          "type": "grid",
+          "answer": [
+            "160",
+            "$160"
+          ],
+          "explanation": "25 × 6 + 10 = 160.",
+          "topic": "Linear Equations"
+        },
+        {
+          "q": "A recipe uses 3 cups of flour for every 2 cups of sugar. How many cups of sugar are needed with 12 cups of flour?",
+          "type": "grid",
+          "answer": "8",
+          "explanation": "12 ÷ 3 = 4 batches; 4 × 2 = 8 cups of sugar.",
+          "topic": "Ratios & Proportions"
+        },
+        {
+          "q": "The price of an item increased from $80 to $100. What was the percent increase? (Enter the number only.)",
+          "type": "grid",
+          "answer": [
+            "25",
+            "25%"
+          ],
+          "explanation": "Increase of 20 on a base of 80: 20/80 = 25%.",
+          "topic": "Percentages"
+        }
+      ]
+    }
+  ]
+}

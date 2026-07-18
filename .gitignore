@@ -1,0 +1,9 @@
+/node_modules
+/.next
+/out
+
+# Local Claude Code settings (personal/machine-specific)
+.claude/settings.local.json
+
+# Local data: accounts (hashed passwords + session secret), score history, imported tests
+/data
