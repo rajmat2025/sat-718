@@ -48,7 +48,31 @@ No database and no cloud — everything stays on the computer running the app.
 | **Accounts** | `data/auth.json` | Hashed passwords + a random session secret. Seeded on first run. |
 | **Bundled tests** | `public/tests/*.json` + `public/tests/manifest.json` | Ship a test with the app by dropping its JSON here and adding the filename to `manifest.json`. |
 
-The `data/` folder (and everything in it) is created automatically on first run. Back up all history, tests, and accounts by copying the `data/` folder.
+The data folder (and everything in it) is created automatically on first run. Back it up by copying it.
+
+### Where the data folder lives (and surviving deployments)
+
+By default the folder is `<project>/data`. **On a hosted/deployed setup, set the `SAT_DATA_DIR` environment variable to a path _outside_ the deploy directory** — otherwise a redeploy that replaces the app folder can wipe your tests and attempts.
+
+```bash
+# e.g. on Hostinger (adjust the username); create it once, then set the env var
+SAT_DATA_DIR=/home/u123456789/sat-data
+```
+
+- All four data locations above move together under `SAT_DATA_DIR` (`.../attempts`, `.../tests`, `auth.json`).
+- The app **only ever adds files, or removes one when an admin explicitly deletes it** — no code path (build, deploy, or feature) bulk-deletes tests or attempts. Keeping the data outside the deploy directory means `git pull` / re-upload / rebuild can't touch it either.
+- See `.env.example`. After changing `SAT_DATA_DIR`, move any existing `data/` contents to the new location so history carries over.
+
+> Deploy checklist: (1) point `SAT_DATA_DIR` at a persistent path outside the app root, (2) never expose `next dev` publicly — build and run with `npm run build && npm start`, (3) change the default `admin`/`sofia` passwords (see the security note below).
+
+## Security notes (for public/hosted deployments)
+
+The auth model was designed for local/LAN use. When the app is reachable on the public internet, tighten these:
+
+- **Change the default passwords immediately.** `admin`/`admin` and `sofia`/`password` are well-known defaults — on a public URL anyone could sign in as admin. Update the `pass` values in `auth.json` (scrypt `salt:hash`).
+- **Keep `data/` off the web.** It's outside `public/`, so Next.js doesn't serve it — don't move it under `public/`, and prefer an external `SAT_DATA_DIR`.
+- **Patch dependencies.** `next@14.2.35` has several High/Moderate advisories that matter once public (SSRF/XSS/DoS). Plan the upgrade to `next@15.5.16` + `postcss@8.5.10`; note the 14→15 jump makes dynamic-route `params` async (`app/api/*/[id]/route.js` would need `const { id } = await params;`).
+- **Cookies over HTTPS.** Consider marking the session cookie `secure` in production so it's only sent over HTTPS (Hostinger provides SSL).
 
 ## Run it
 

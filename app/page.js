@@ -806,9 +806,6 @@ export default function App() {
               </button>
             </form>
           </div>
-          <p className="faint" style={{ textAlign: "center" }}>
-            Starter accounts: <strong>sofia / password</strong> (student) · <strong>admin / admin</strong> (admin)
-          </p>
         </div>
       </main>
     );

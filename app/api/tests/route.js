@@ -2,10 +2,9 @@ import { promises as fs } from "fs";
 import path from "path";
 import { getSession } from "../../../lib/auth";
 import { validateTest, slugify } from "../../../lib/testSchema";
+import { TESTS_DIR as DIR } from "../../../lib/dataDir";
 
 export const dynamic = "force-dynamic";
-
-const DIR = path.join(process.cwd(), "data", "tests");
 
 async function readAll() {
   let files;

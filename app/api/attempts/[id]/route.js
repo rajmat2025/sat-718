@@ -1,10 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { getSession } from "../../../../lib/auth";
+import { ATTEMPTS_DIR as DIR } from "../../../../lib/dataDir";
 
 export const dynamic = "force-dynamic";
-
-const DIR = path.join(process.cwd(), "data", "attempts");
 
 function safeId(id) {
   return typeof id === "string" && /^[a-z0-9-]+$/i.test(id);
