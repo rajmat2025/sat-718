@@ -17,6 +17,7 @@ A small Next.js app that helps a student prepare for the SAT over a multi-month 
 - **Progress dashboard** on the home screen: tests taken, latest score (with ▲/▼ change vs. the previous attempt), best score, and average.
 - **Test list with per-test status + filter.** Each test shows a status badge — a student sees their **best score** or **Not taken**; an admin sees **Taken · N attempts** (across all students) or **Not taken**. Filter the list by name or taken/not-taken.
 - **Answer-key verifier (admin).** Click a test's title to open a read-only view of every question with its correct answer marked, topic, accepted grid-in forms, and explanation — a quick way to confirm an imported JSON is correct.
+- **Math notation rendering.** Tests may use LaTeX (`$...$`, `$$...$$`, or bare commands in answer choices); it renders properly via KaTeX. Plain-Unicode and plain-ASCII tests are left exactly as-is. See "Math notation" below.
 - **Score history with filters** — every past attempt, with color-coded percentages and a **View details** button to re-open the full review anytime. Filter by **student** (admin only), **test**, and **date range**.
 - **Import with a verify step (admin only).** Paste JSON or pick a `.json` file, preview the parsed test, and **edit the (auto date-stamped) test name** before it's added.
 - **Download the JSON format (admin).** A "Download JSON template" button gives a ready-to-edit sample showing the exact question/answer format; each test also has a **JSON** button to export its full questions and answers.
@@ -143,6 +144,29 @@ Then find your computer's local IP (Windows: `ipconfig` → IPv4 Address; Mac: `
 - `topic` (optional, any question) is a short label like `"Linear equations"`. When present, results and reviews show a **per-topic weak-area breakdown**. Tag questions consistently to make it useful.
 - Any number of sections, each with its own timer.
 - Admins can grab a ready-to-edit sample of this format from the app: **Import a test → Download JSON template**.
+
+## Math notation
+
+Test JSON arrives from several sources that don't agree on how to encode math, so the app normalizes it **once at load time** (never during a timed section) and renders it with KaTeX.
+
+Supported in question stems, answer choices, and explanations:
+
+| Written as | Example | Result |
+| --- | --- | --- |
+| Plain Unicode / ASCII | `x² − 6x + 8`, `5x^7` | left exactly as-is |
+| Inline LaTeX | `$\frac{3}{4}x$` | rendered inline |
+| Display LaTeX | `$$ky - 4x = 7$$` | rendered on its own line |
+| Bare LaTeX in a choice | `\frac{8}{3}`, `25\pi` | rendered |
+| Currency | `$10 signup fee plus $25` | left as literal dollars |
+| Escaped dollar in math | `$\$250$` | renders as `$250` |
+
+Rules worth knowing:
+
+- **Currency is never mistaken for math.** An odd number of `$` in a string means all of them are literal; a `$…$` pair is only treated as math if the span is short, prose-free, and actually looks symbolic.
+- **Math is decided per question, not per string.** A question renders as math only if it shows real LaTeX intent (a `\command` or `^{...}`). A test written with plain `x^3` stays plain throughout, so you never get a half-rendered item.
+- **Grid-in answers are never normalized.** Grading compares raw text (plus numeric equivalence), so LaTeX can't leak into the comparison. A `\` in a grid answer is reported as an authoring error.
+- **A question can never fail to display.** If KaTeX can't compile a span, it degrades to a flagged `<code class="math-error">` showing the raw source — no blank stems, nothing thrown mid-section.
+- Corrupted single-backslash escapes (`\frac` mangled into formfeed + `rac` by JSON escaping) are repaired where unambiguous, and reported where not.
 
 ## Results JSON schema (what each attempt stores and exports)
 

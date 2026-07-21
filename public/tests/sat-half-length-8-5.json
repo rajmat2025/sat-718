@@ -1,0 +1,596 @@
+{
+  "id": "sat-half-length-test-intensity-8-5",
+  "title": "SAT Practice Test (Intensity Level: 8.5/10)",
+  "description": "Half-length Digital SAT practice test designed for 1 hour 7 minutes (32 min Reading & Writing, 35 min Math) targeting advanced high-difficulty module concepts.",
+  "sections": [
+    {
+      "name": "Reading & Writing",
+      "minutes": 32,
+      "questions": [
+        {
+          "q": "Although many economists anticipated that the sudden shift in global trade policies would cause immediate volatility, the markets remained remarkably _____ throughout the fiscal quarter, displaying an unexpected resilience that baffled financial analysts.\n\nWhich choice completes the text with the most logical and precise word?",
+          "topic": "Words in Context",
+          "choices": [
+            "mercurial",
+            "imperturbable",
+            "precarious",
+            "transient"
+          ],
+          "answer": 1,
+          "explanation": "'Imperturbable' means unable to be upset or agitated, matching 'remained remarkably... displaying unexpected resilience'."
+        },
+        {
+          "q": "Dr. Vasquez’s study on subterranean ecosystems does not merely _____ existing speleological theories; rather, it dismantles them entirely by presenting empirical evidence of chemoautotrophic organisms thriving in anaerobic zones.\n\nWhich choice completes the text with the most logical and precise word?",
+          "topic": "Words in Context",
+          "choices": [
+            "bolster",
+            "corroborate",
+            "nuance",
+            "repudiate"
+          ],
+          "answer": 2,
+          "explanation": "'Nuance' as a verb means to introduce subtle distinctions. The contrast 'does not merely nuance... rather, it dismantles them entirely' creates a logical progression."
+        },
+        {
+          "q": "The novelist's prose is characterized by its extreme brevity; rather than indulging in _____ descriptions of the rural landscape, she conveys atmosphere through sparse, striking imagery.\n\nWhich choice completes the text with the most logical and precise word?",
+          "topic": "Words in Context",
+          "choices": [
+            "laconic",
+            "florid",
+            "austere",
+            "cogent"
+          ],
+          "answer": 1,
+          "explanation": "'Florid' means excessively intricate or ornate, contrasting with 'extreme brevity' and 'sparse, striking imagery'."
+        },
+        {
+          "q": "Far from being a mere _____ to the primary text, the historian's extensive footnotes contain critical historiographical debates that fundamentally alter the reader's understanding of the main narrative.\n\nWhich choice completes the text with the most logical and precise word?",
+          "topic": "Words in Context",
+          "choices": [
+            "addendum",
+            "precursor",
+            "linchpin",
+            "paradigm"
+          ],
+          "answer": 0,
+          "explanation": "An 'addendum' is a minor addition. 'Far from being a mere addendum' fits the context of footnotes containing crucial debates."
+        },
+        {
+          "q": "In 1912, meteorologist Alfred Wegener proposed the theory of continental drift, suggesting that Earth's continents had once formed a single landmass called Pangaea. At the time, the prevailing consensus favored static continents, and Wegener's hypothesis was widely dismissed due to his inability to identify a physical mechanism driving continental movement. It was not until the 1960s, with the discovery of seafloor spreading, that Wegener’s core insight was fully vindicated.\n\nWhich choice best states the main purpose of the text?",
+          "topic": "Text Structure & Purpose",
+          "choices": [
+            "To detail the geological evidence Wegener used to formulate continental drift.",
+            "To trace the historical trajectory of a scientific idea from initial rejection to ultimate acceptance.",
+            "To argue that modern plate tectonics theory overstates Wegener's original contribution.",
+            "To explain why early 20th-century geologists were justified in rejecting seafloor spreading."
+          ],
+          "answer": 1,
+          "explanation": "The text traces Wegener's idea from its 1912 proposal and initial rejection to its 1960s vindication."
+        },
+        {
+          "q": "Ecologist Dr. Elena Rostova investigated the impact of invasive kudzu vines on soil nitrogen levels in forest ecosystems. While kudzu is known to fix atmospheric nitrogen and enrich soil nutrients, Rostova discovered that excessive soil nitrogen paradoxically inhibits the growth of native hardwood saplings by favoring fast-growing nitrophilic weeds.\n\nWhich choice best describes the overall structure of the text?",
+          "topic": "Text Structure & Purpose",
+          "choices": [
+            "It describes a research focus, notes an established fact, and presents a counterintuitive finding.",
+            "It poses a theoretical question, outlines an experiment, and offers a definitive resolution.",
+            "It summarizes a scientific debate, defends a traditional view, and refutes a recent criticism.",
+            "It introduces an ecological problem, proposes a management solution, and evaluates its effectiveness."
+          ],
+          "answer": 0,
+          "explanation": "It states the research focus (kudzu impact), an established fact (kudzu fixes nitrogen), and a counterintuitive finding (excess nitrogen inhibits native saplings)."
+        },
+        {
+          "q": "'The proper stuff of fiction' does not exist; everything is the proper stuff of fiction, every feeling, every thought; every quality of brain and spirit is drawn upon. If a writer were a free man and not a slave to convention, there would be no plot, no comedy, no tragedy, or catastrophe in the accepted style.\n\nBased on the text, what is Virginia Woolf's primary claim about fiction writing?",
+          "topic": "Text Structure & Purpose",
+          "choices": [
+            "Literary conventions artificially restrict the subjects and forms that novelists can explore.",
+            "Traditional plots are essential for maintaining reader engagement across diverse genres.",
+            "Writers should prioritize comedic and tragic elements over personal feelings.",
+            "Modern fiction has successfully liberated writers from historical stylistic constraints."
+          ],
+          "answer": 0,
+          "explanation": "Woolf argues that rigid conventions prevent writers from exploring all human perceptions."
+        },
+        {
+          "q": "Text 1:\nFor decades, paleontologists assumed T. rex was an active predator, relying on keen vision to hunt. Proponents argue that the energetic demands of such a massive body could not be satisfied by scavenging alone.\n\nText 2:\nPaleontologist Jack Horner proposed T. rex was an obligate scavenger, citing its diminutive forelimbs—useless in subduing prey—and large olfactory bulbs similar to scavenging vultures.\n\nBased on the texts, how would Horner (Text 2) most likely respond to the argument in Text 1 regarding body size?",
+          "topic": "Cross-Text Connections",
+          "choices": [
+            "By contending that scavenging large carcasses could provide sufficient calories without the energetic expenditure of hunting.",
+            "By demonstrating that T. rex's forelimbs were strong enough to dismantle living prey.",
+            "By arguing that binocular vision is unnecessary for both hunting and scavenging behaviors.",
+            "By asserting that T. rex had a much lower metabolic rate than modern birds."
+          ],
+          "answer": 0,
+          "explanation": "Horner would counter that scavenging large carcasses yields high calories while eliminating the energetic cost of hunting prey."
+        },
+        {
+          "q": "Text 1:\nUniversal basic income (UBI) proponents argue that unconditional cash transfers empower individuals to pursue education or entrepreneurship without immediate financial ruin.\n\nText 2:\nEconomist Dr. Aris Thorne contends that full-scale UBI risks triggering demand-pull inflation. If consumer spending increases rapidly without a rise in aggregate supply, real purchasing power diminishes.\n\nBased on the texts, how would Dr. Thorne view the claim in Text 1?",
+          "topic": "Cross-Text Connections",
+          "choices": [
+            "As overly optimistic because inflationary pressures could erode the purchasing power of the cash transfers.",
+            "As well-founded because cash transfers directly stimulate aggregate supply in key sectors.",
+            "As flawed because unconditional transfers fail to increase consumer spending among low-income households.",
+            "As correct only if UBI replaces all existing targeted social welfare programs."
+          ],
+          "answer": 0,
+          "explanation": "Thorne warns that inflation would erode purchasing power, directly questioning the optimistic claim in Text 1."
+        },
+        {
+          "q": "Deep-sea hydrothermal vents emit mineral-rich fluids at temperatures exceeding 400°C. Vibrant ecosystems flourish around these vents because chemotrophic bacteria oxidize hydrogen sulfide dissolved in vent fluids to synthesize organic molecules, sustaining specialized fauna such as giant tube worms (Riftia pachyptila) which lack digestive tracts entirely.\n\nAccording to the text, how do giant tube worms obtain energy?",
+          "topic": "Central Ideas & Details",
+          "choices": [
+            "By absorbing solar radiation that penetrates deep ocean trenches.",
+            "Through symbiotic reliance on chemotrophic bacteria that process hydrogen sulfide.",
+            "By consuming mineral-rich fluids directly through specialized mouth structures.",
+            "By preying on smaller organisms that feed on vent fluids."
+          ],
+          "answer": 1,
+          "explanation": "The text explains tube worms lack digestive tracts and rely on chemotrophic bacteria converting hydrogen sulfide."
+        },
+        {
+          "q": "The Sapir-Whorf hypothesis posits that language structure dictates human cognition. However, recent studies in color perception demonstrate that human infants, prior to language acquisition, categorize colors into discrete spectrum bands similarly across diverse cultures.\n\nWhich choice best summarizes the main idea of the text?",
+          "topic": "Central Ideas & Details",
+          "choices": [
+            "Infant color perception studies provide evidence challenging the strong claim of linguistic relativity.",
+            "The Sapir-Whorf hypothesis has been completely proven true by cross-cultural infant research.",
+            "Language acquisition is the primary determinant of visual perception in developing infants.",
+            "Cultural background dictates how adults and infants categorize basic spectrum colors."
+          ],
+          "answer": 0,
+          "explanation": "Pre-verbal color categorization in infants suggests fundamental perception exists prior to language, challenging linguistic relativity."
+        },
+        {
+          "q": "During the Gilded Age, rapid industrialization led to wealth accumulation alongside widespread labor exploitation. While industrial titans established foundations, labor unions emerged to demand eight-hour workdays, safer conditions, and fair wages.\n\nAccording to the text, what directly motivated the emergence of labor unions?",
+          "topic": "Central Ideas & Details",
+          "choices": [
+            "The philanthropic activities of industrial titans.",
+            "Widespread labor exploitation accompanying rapid industrialization.",
+            "Government legislation establishing the eight-hour workday.",
+            "Decreasing wealth disparity between working class families and industrial leaders."
+          ],
+          "answer": 1,
+          "explanation": "The text explicitly connects the emergence of labor unions to labor exploitation during rapid industrialization."
+        },
+        {
+          "q": "The bowhead whale (Balaena mysticetus) can live over 200 years. Analysis of the bowhead genome identified unique mutations in genes associated with DNA repair (ERCC1 and PCNA). These enable bowhead whales to maintain genomic stability and resist cancer despite possessing trillions more cells than humans.\n\nBased on the text, what allows bowhead whales to resist cancer?",
+          "topic": "Central Ideas & Details",
+          "choices": [
+            "Genetic adaptations that enhance DNA repair and preserve genomic stability.",
+            "A significantly lower metabolic rate compared to shorter-lived marine mammals.",
+            "Specialized immune cells that actively destroy pre-cancerous tissue.",
+            "Diet-induced antioxidants that prevent cellular damage from ocean pollutants."
+          ],
+          "answer": 0,
+          "explanation": "The text identifies mutations in DNA repair genes as the mechanism for preserving genomic stability and resisting cancer."
+        },
+        {
+          "q": "An art historian claims Artemisia Gentileschi used dramatic chiaroscuro (stark light/dark contrast) as a thematic device to heighten psychological tension in narratives of female agency.\n\nWhich finding most directly supports the art historian's claim?",
+          "topic": "Command of Evidence",
+          "choices": [
+            "Gentileschi's 'Judith Slaying Holofernes' uses harsh single-source lighting to cast deep shadows across the protagonist's face during the central act of resistance.",
+            "Gentileschi studied under Caravaggio, who was famous for popularizing chiaroscuro in 17th-century Rome.",
+            "Several contemporaries praised Gentileschi's skill in mixing oil paints to achieve realistic skin tones.",
+            "Infrared reflectography reveals that Gentileschi frequently altered her background compositions."
+          ],
+          "answer": 0,
+          "explanation": "Option A directly links the lighting technique (chiaroscuro) with psychological tension during an act of female agency."
+        },
+        {
+          "q": "Researchers tracked soil organic carbon (SOC) levels across four agricultural management regimes over 10 years: Conventional Tillage (12 g/kg), No-Till (18 g/kg), Cover Cropping (22 g/kg), and Integrated Biochar + Cover Cropping (31 g/kg). The lead researcher concluded that combining organic amendments with reduced soil disturbance yields a synergistic increase in carbon sequestration.\n\nWhich choice best uses data from the study to support the conclusion?",
+          "topic": "Command of Evidence",
+          "choices": [
+            "Integrated Biochar + Cover Cropping achieved 31 g/kg of SOC, significantly higher than Cover Cropping alone (22 g/kg) or No-Till (18 g/kg).",
+            "Conventional Tillage resulted in the lowest SOC level at 12 g/kg.",
+            "No-Till and Cover Cropping combined were less expensive to maintain than Conventional Tillage.",
+            "Soil organic carbon levels remained unchanged under Conventional Tillage over the 10-year period."
+          ],
+          "answer": 0,
+          "explanation": "Data comparing the integrated treatment (31 g/kg) against individual practices supports the claim of a synergistic increase."
+        },
+        {
+          "q": "Literary scholar Maya Lin argues that Mary Shelley's 'Frankenstein' critiques unrestrained scientific ambition by depicting the monster's descent into violence as a consequence of societal rejection rather than inherent malice.\n\nWhich quotation from 'Frankenstein' most directly supports Lin's argument?",
+          "topic": "Command of Evidence",
+          "choices": [
+            "'I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.'",
+            "'Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge.'",
+            "'Natural philosophy is the genius that has regulated my fate; I desire therefore to state those facts.'",
+            "'I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body.'"
+          ],
+          "answer": 0,
+          "explanation": "'I was benevolent and good; misery made me a fiend' directly demonstrates that his violence resulted from misery/rejection."
+        },
+        {
+          "q": "An environmental agency monitored microplastic concentration (particles/m³) across aquatic zones: Estuary (450), Coastal Waters (120), Open Ocean Surface (85), and Deep Benthic Zone (310). A scientist hypothesized that benthic sediment acts as a secondary sink for sinking microplastics.\n\nWhich choice best uses data to support the hypothesis?",
+          "topic": "Command of Evidence",
+          "choices": [
+            "Microplastic concentration in the Deep Benthic Zone (310 particles/m³) was substantially higher than in Open Ocean Surface waters (85 particles/m³).",
+            "Estuaries exhibited the highest microplastic concentration overall at 450 particles/m³.",
+            "Open Ocean Surface waters contained fewer microplastics than Coastal Waters.",
+            "Microplastic levels in Estuaries were nearly four times higher than in Coastal Waters."
+          ],
+          "answer": 0,
+          "explanation": "Higher microplastic levels in the deep benthic zone compared to surface waters supports the hypothesis that deep sediment acts as a sink."
+        },
+        {
+          "q": "Researchers exposed European robins to artificial radiofrequency magnetic fields. The artificial fields disrupted the birds' inclination compass orientation, but only when the light spectrum included blue wavelengths necessary to photoactivate cryptochrome-4.\n\nBased on the text, what can be reasonably inferred about robin navigation?",
+          "topic": "Inferences",
+          "choices": [
+            "Cryptochrome-dependent magnetic sensing requires specific light wavelengths to function as a navigational compass.",
+            "Radiofrequency magnetic fields permanently disable the navigational capabilities of European robins.",
+            "European robins rely primarily on celestial landmarks when radiofrequency fields are absent.",
+            "Cryptochrome-4 functions effectively in complete darkness."
+          ],
+          "answer": 0,
+          "explanation": "Since disruption occurred only under blue light needed for cryptochrome activation, light is necessary for magnetic navigation."
+        },
+        {
+          "q": "Architectural conservationists examined two 18th-century masonry bridges built with lime mortar. Bridge A, in a dry Mediterranean climate, exhibited minimal mortar degradation after 250 years. Bridge B, in a high-humidity rainforest with frequent freeze-thaw cycles, required extensive restoration due to severe mortar dissolution.\n\nWhich inference about lime mortar durability is best supported by the text?",
+          "topic": "Inferences",
+          "choices": [
+            "Moisture exposure and freeze-thaw thermal fluctuations significantly accelerate the degradation of lime mortar.",
+            "Lime mortar is inherently unsuited for bridge construction regardless of environmental conditions.",
+            "Mediterranean bridges require more frequent maintenance than bridges in temperate rainforests.",
+            "Modern cement mortar is superior to 18th-century lime mortar in humid climates."
+          ],
+          "answer": 0,
+          "explanation": "Comparing Bridge A (dry/durable) and Bridge B (humid/freeze-thaw/degraded) supports the inference that moisture and thermal cycles accelerate decay."
+        },
+        {
+          "q": "Behavioral economist Katy Milkman—whose research on 'fresh start' effects demonstrates how temporal landmarks motivate personal change _____ revolutionized contemporary strategies for habit formation.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+          "topic": "Punctuation",
+          "choices": [
+            "—has",
+            ", has",
+            "has",
+            "; has"
+          ],
+          "answer": 0,
+          "explanation": "The nonessential parenthetical clause opens with an em dash ('Milkman—'), so it must close with a matching em dash ('change—has')."
+        },
+        {
+          "q": "Marine biologist Sylvia Earle highlighted a glaring disparity in ocean conservation _____ while over 15 percent of land area worldwide is protected, less than 8 percent of the global ocean receives formal legal protection.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+          "topic": "Punctuation",
+          "choices": [
+            ": while",
+            "; while",
+            ", while",
+            "while"
+          ],
+          "answer": 0,
+          "explanation": "A colon is required to introduce an explanation/elaboration of the assertion made in the preceding clause."
+        },
+        {
+          "q": "Neither the complex theoretical models proposed by the astrophysicists nor the empirical data gathered by the space telescope _____ fully accounted for the anomalous redshift observed in the distant galaxy cluster.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+          "topic": "Grammar",
+          "choices": [
+            "have",
+            "has",
+            "having",
+            "to have"
+          ],
+          "answer": 1,
+          "explanation": "In 'neither... nor' structures, the verb agrees with the closer subject ('empirical data', treated as singular/uncountable singular context)."
+        },
+        {
+          "q": "Having analyzed over ten thousand stellar spectra collected by the observatory, _____\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+          "topic": "Grammar",
+          "choices": [
+            "the research team identified three previously unknown exoplanets orbiting a red dwarf star.",
+            "three previously unknown exoplanets were identified by the research team orbiting a red dwarf star.",
+            "a red dwarf star was found to host three previously unknown exoplanets by the research team.",
+            "orbital patterns of three previously unknown exoplanets were cataloged by the research team."
+          ],
+          "answer": 0,
+          "explanation": "The introductory modifier 'Having analyzed...' must logically modify the subject that performed the analysis ('the research team')."
+        },
+        {
+          "q": "For centuries, consensus held that the ancient city was abandoned due to warfare. Recent excavations revealed evidence of prolonged drought immediately preceding depopulation. _____ modern scholars now view climate stress as the primary catalyst for the civilization's decline.\n\nWhich choice completes the text with the most logical transition?",
+          "topic": "Transitions",
+          "choices": [
+            "Consequently,",
+            "However,",
+            "In contrast,",
+            "For instance,"
+          ],
+          "answer": 0,
+          "explanation": "'Consequently' indicates a cause-and-effect relationship between the new archaeological evidence and the modern scholars' conclusion."
+        },
+        {
+          "q": "Notes:\n- Maya Lin is an American architect.\n- She gained national prominence in 1981 at age 21.\n- She won the design competition for the Vietnam Veterans Memorial.\n- Her design featured a V-shaped black granite wall.\n\nThe student wants to emphasize how Maya Lin achieved national recognition. Which choice best uses relevant information from the notes?",
+          "topic": "Rhetorical Synthesis",
+          "choices": [
+            "Maya Lin achieved national prominence in 1981 at age 21 when she won the design competition for the Vietnam Veterans Memorial.",
+            "The Vietnam Veterans Memorial features a V-shaped black granite wall with over 58,000 names inscribed.",
+            "Although initially controversial, the Vietnam Veterans Memorial later received widespread acclaim.",
+            "Maya Lin, an American architect and sculptor, created a V-shaped wall of black granite in Washington, D.C."
+          ],
+          "answer": 0,
+          "explanation": "Choice A directly addresses the goal by highlighting how she achieved national recognition."
+        },
+        {
+          "q": "Notes:\n- Bioluminescence is light emission by living organisms.\n- Organisms use bioluminescence for defense, predation, and communication.\n- Dinoflagellates emit flashes of blue light when disturbed by water movement to deter predators.\n\nThe student wants to provide a specific example of an organism using bioluminescence for defense. Which choice best uses relevant information?",
+          "topic": "Rhetorical Synthesis",
+          "choices": [
+            "Dinoflagellates emit flashes of blue light when disturbed by water movement to deter predators.",
+            "Bioluminescence is produced when luciferin reacts with luciferase in marine organisms.",
+            "Marine species utilize bioluminescence for diverse functions, including defense, predation, and communication.",
+            "Light emission in living organisms is known as bioluminescence and is widespread in ocean habitats."
+          ],
+          "answer": 0,
+          "explanation": "Choice A specifies the organism (dinoflagellates) and its defensive mechanism (deterring predators)."
+        },
+        {
+          "q": "Notes:\n- JWST operates primarily in the infrared spectrum.\n- Hubble operates primarily in ultraviolet and visible light.\n- Infrared capability allows JWST to peer through cosmic dust clouds.\n\nThe student wants to contrast the observational capabilities of JWST with those of Hubble. Which choice best uses relevant information?",
+          "topic": "Rhetorical Synthesis",
+          "choices": [
+            "While the Hubble Space Telescope operates in ultraviolet and visible light, JWST operates in infrared, allowing it to peer through cosmic dust.",
+            "Launched in December 2021, JWST captured images of galaxies formed over 13.5 billion years ago.",
+            "JWST's infrared sensors enable astronomers to view ancient galaxies obscured by dense clouds of cosmic dust.",
+            "Both Hubble and JWST are space telescopes designed to study distant celestial phenomena across time."
+          ],
+          "answer": 0,
+          "explanation": "Choice A directly contrasts Hubble's spectrum capabilities with JWST's infrared capabilities."
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "minutes": 35,
+      "questions": [
+        {
+          "q": "If $\\frac{3}{4}(2x - 8) + 5 = 2(x + 1) - \\frac{1}{2}x$, what is the value of $x$?",
+          "topic": "Linear equations",
+          "choices": [
+            "No solution",
+            "Infinitely many solutions",
+            "0",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "Simplifying both sides yields $\\frac{3}{2}x - 1 = \\frac{3}{2}x + 2$, which reduces to $-1 = 2$. Since this statement is false, there is No solution."
+        },
+        {
+          "q": "In the system of equations below, $k$ is a constant:\n$$ky - 4x = 7$$\n$$3x - 2y = 5$$\nFor what value of $k$ does the system of equations have no solution?",
+          "topic": "Systems of equations",
+          "choices": [
+            "-1.5",
+            "\\frac{8}{3}",
+            "-\\frac{8}{3}",
+            "\\frac{3}{2}"
+          ],
+          "answer": 1,
+          "explanation": "In standard form $-4x + ky = 7$ and $3x - 2y = 5$, parallel lines require equal slopes: $\\frac{-4}{3} = \\frac{k}{-2} \\implies k = \\frac{8}{3}$."
+        },
+        {
+          "q": "A catering company charges a setup fee of $\\$250$ plus $\\$35$ per guest. A client has a maximum budget of $\\$1,800$ for an event. If the client must also pay an $8\\%$ sales tax on the total bill (including setup), what is the maximum number of guests the client can invite?",
+          "topic": "Linear inequalities",
+          "choices": [
+            "39",
+            "40",
+            "41",
+            "44"
+          ],
+          "answer": 1,
+          "explanation": "$1.08(250 + 35g) \\le 1800 \\implies 250 + 35g \\le 1666.67 \\implies 35g \\le 1416.67 \\implies g \\le 40.47$. Maximum whole guests = 40."
+        },
+        {
+          "q": "The function $f(x) = -2x^2 + 12x - 10$ can be written in vertex form as $f(x) = a(x - h)^2 + k$. What is the value of $a + h + k$?",
+          "topic": "Quadratic equations",
+          "choices": [
+            "7",
+            "8",
+            "9",
+            "11"
+          ],
+          "answer": 2,
+          "explanation": "Completing the square: $f(x) = -2(x^2 - 6x + 9) - 10 + 18 = -2(x - 3)^2 + 8$. Thus $a = -2, h = 3, k = 8$, so $a + h + k = 9$."
+        },
+        {
+          "q": "A line with equation $y = mx - 3$ intersects the parabola $y = x^2 - 4x + 6$ at exactly one point in the $xy$-plane. If $m > 0$, what is the value of $m$?",
+          "topic": "Non-linear systems",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": 0,
+          "explanation": "Setting $x^2 - (4+m)x + 9 = 0$ requires discriminant $D = (4+m)^2 - 36 = 0 \\implies 4+m = 6 \\implies m = 2$."
+        },
+        {
+          "q": "The polynomial $P(x) = 2x^3 - kx^2 + 3x - 10$ is divisible by $(x - 2)$. What is the remainder when $P(x)$ is divided by $(x + 1)$?",
+          "topic": "Polynomials",
+          "choices": [
+            "-18",
+            "-22",
+            "-10",
+            "6"
+          ],
+          "answer": 0,
+          "explanation": "Since $P(2) = 0 \\implies 16 - 4k + 6 - 10 = 0 \\implies k = 3$. Remainder when divided by $(x + 1)$ is $P(-1) = 2(-1)^3 - 3(-1)^2 + 3(-1) - 10 = -18$."
+        },
+        {
+          "q": "An initial investment of $\\$5{,}000$ grows at an annual interest rate of $6\\%$ compounded quarterly. Which expression represents the total value of the investment after $t$ years?",
+          "topic": "Exponential functions",
+          "choices": [
+            "5000(1.06)^t",
+            "5000(1.015)^{4t}",
+            "5000(1.015)^{t/4}",
+            "5000(1.06)^{4t}"
+          ],
+          "answer": 1,
+          "explanation": "Quarterly interest rate $= \\frac{0.06}{4} = 0.015$, with $4t$ compounding periods: $5000(1.015)^{4t}$."
+        },
+        {
+          "q": "The function $g(x) = \\frac{2x^2 - 8}{x^2 - 3x - 10}$ has a vertical asymptote at $x = a$ and a removable discontinuity (hole) at $x = b$. What is the value of $a + b$?",
+          "topic": "Rational functions",
+          "choices": [
+            "3",
+            "7",
+            "-3",
+            "-7"
+          ],
+          "answer": 0,
+          "explanation": "Factor $g(x) = \\frac{2(x-2)(x+2)}{(x-5)(x+2)}$. Hole at $x = -2$ ($b = -2$) and vertical asymptote at $x = 5$ ($a = 5$). $a + b = 3$."
+        },
+        {
+          "q": "The graph of $y = f(x)$ is transformed to obtain $g(x) = -2f(x - 3) + 4$. Which sequence of transformations correctly describes this change?",
+          "topic": "Function transformations",
+          "choices": [
+            "Shift right 3, reflect over x-axis, stretch vertically by factor of 2, shift up 4",
+            "Shift left 3, reflect over y-axis, stretch horizontally by factor of 2, shift up 4",
+            "Shift right 3, reflect over y-axis, stretch vertically by factor of 2, shift down 4",
+            "Shift left 3, reflect over x-axis, stretch horizontally by factor of 2, shift down 4"
+          ],
+          "answer": 0,
+          "explanation": "$f(x-3)$ shifts right 3, factor $-2$ reflects over the x-axis and stretches vertically by 2, and $+4$ shifts up 4."
+        },
+        {
+          "q": "A poll conducted on a random sample of $1{,}200$ voters in a city found that $54\\%$ preferred Candidate A, with a margin of error of $2.8\\%$ at a $95\\%$ confidence level. Which statement must be true?",
+          "topic": "Statistics & Margin of error",
+          "choices": [
+            "Candidate A is guaranteed to win between 51.2% and 56.8% of votes.",
+            "We are 95% confident that the true population proportion preferring Candidate A is between 51.2% and 56.8%.",
+            "If the sample size increased to 2,400, the margin of error would double.",
+            "Exactly 54% of all voters in the city prefer Candidate A."
+          ],
+          "answer": 1,
+          "explanation": "The confidence interval $54\\% \\pm 2.8\\% = [51.2\\%, 56.8\\%]$ represents the range within which we are $95\\%$ confident the true population parameter lies."
+        },
+        {
+          "q": "Data set X consists of 10 integers with a mean of 50 and a standard deviation of 8. Data set Y is created by multiplying each value in data set X by 3 and then subtracting 10. What are the mean and standard deviation of data set Y?",
+          "topic": "Statistics",
+          "choices": [
+            "Mean = 140, Standard Deviation = 14",
+            "Mean = 140, Standard Deviation = 24",
+            "Mean = 150, Standard Deviation = 24",
+            "Mean = 150, Standard Deviation = 14"
+          ],
+          "answer": 1,
+          "explanation": "New Mean $= 3(50) - 10 = 140$. Multiplying by 3 scales standard deviation to $3 \\times 8 = 24$ (subtracting a constant does not alter standard deviation)."
+        },
+        {
+          "q": "A scatter plot shows a non-linear relationship between years ($t$) and bacteria population ($P$). The line of best fit for $\\ln(P)$ versus $t$ is $\\ln(P) = 0.4t + 3.0$. Which model best estimates $P$ as a function of $t$?",
+          "topic": "Scatter plots & Exponential models",
+          "choices": [
+            "P = 3.0(0.4)^t",
+            "P = e^{3.0} \\cdot e^{0.4t} \\approx 20.08 e^{0.4t}",
+            "P = 0.4 e^{3t}",
+            "P = 3.0 e^{0.4t}"
+          ],
+          "answer": 1,
+          "explanation": "Exponentiating both sides: $P = e^{0.4t + 3.0} = e^{3.0} \\cdot e^{0.4t} \\approx 20.08 e^{0.4t}$."
+        },
+        {
+          "q": "A medical trial tested 200 patients: 120 received Treatment A and 80 received Placebo. 30 patients in Treatment A and 10 patients in Placebo experienced mild side effects. What is the probability that a patient who experienced mild side effects received Treatment A?",
+          "topic": "Conditional probability",
+          "choices": [
+            "\\frac{3}{20}",
+            "\\frac{1}{4}",
+            "\\frac{3}{4}",
+            "\\frac{3}{5}"
+          ],
+          "answer": 2,
+          "explanation": "Total patients with side effects $= 30 + 10 = 40$. Probability $= \\frac{30}{40} = \\frac{3}{4}$."
+        },
+        {
+          "q": "In the $xy$-plane, the equation of a circle is $x^2 + y^2 - 8x + 10y - 8 = 0$. What is the area of the circle?",
+          "topic": "Circle equations",
+          "choices": [
+            "25\\pi",
+            "33\\pi",
+            "49\\pi",
+            "81\\pi"
+          ],
+          "answer": 2,
+          "explanation": "Completing the square: $(x-4)^2 + (y+5)^2 = 8 + 16 + 25 = 49$. Thus $r^2 = 49$, and Area $= 49\\pi$."
+        },
+        {
+          "q": "In right triangle $ABC$ with right angle at $C$, $\\sin(A) = \\frac{5}{13}$. If side $AC = 24$, what is the perimeter of triangle $ABC$?",
+          "topic": "Right triangle trigonometry",
+          "choices": [
+            "30",
+            "52",
+            "60",
+            "65"
+          ],
+          "answer": 2,
+          "explanation": "$\\cos(A) = \\frac{12}{13} = \\frac{AC}{AB} = \\frac{24}{AB} \\implies AB = 26$. Opposite side $BC = 10$. Perimeter $= 10 + 24 + 26 = 60$."
+        },
+        {
+          "q": "A circle with radius $9$ cm has a central angle $\\theta$ that intercepts an arc of length $6\\pi$ cm. What is the value of $\\theta$ in radians?",
+          "topic": "Arc length & Radians",
+          "choices": [
+            "\\frac{2\\pi}{3}",
+            "\\frac{3\\pi}{4}",
+            "\\frac{5\\pi}{6}",
+            "\\frac{4\\pi}{3}"
+          ],
+          "answer": 0,
+          "explanation": "Arc length formula $s = r\\theta \\implies 6\\pi = 9\\theta \\implies \\theta = \\frac{6\\pi}{9} = \\frac{2\\pi}{3}$."
+        },
+        {
+          "q": "Triangle $ADE$ is similar to triangle $ABC$, where $DE$ is parallel to $BC$. If $AD = 4$ and $DB = 6$, what is the ratio of the area of triangle $ADE$ to the area of quadrilateral $DBCE$?",
+          "topic": "Similar triangles",
+          "choices": [
+            "\\frac{4}{25}",
+            "\\frac{4}{21}",
+            "\\frac{16}{25}",
+            "\\frac{16}{69}"
+          ],
+          "answer": 1,
+          "explanation": "Length ratio $= \\frac{4}{10} = \\frac{2}{5}$. Area ratio $\\frac{ADE}{ABC} = \\frac{4}{25}$. Area of $DBCE = 25 - 4 = 21$ relative parts, making the ratio $\\frac{4}{21}$."
+        },
+        {
+          "q": "Grid-in: If $x > 0$ and $2x^2 + 5x - 12 = 0$, what is the value of $x$?",
+          "topic": "Quadratic equations",
+          "type": "grid",
+          "answer": [
+            "1.5",
+            "3/2"
+          ],
+          "explanation": "Factoring $(2x - 3)(x + 4) = 0 \\implies x = 1.5$ or $x = -4$. Since $x > 0$, $x = 1.5$ or $3/2$."
+        },
+        {
+          "q": "Grid-in: If $3x + 2y = 18$ and $x - y = 1$, what is the value of $x^2 - y^2$?",
+          "topic": "Systems of equations",
+          "type": "grid",
+          "answer": [
+            "7"
+          ],
+          "explanation": "Solving the linear system gives $x = 4$ and $y = 3$. Evaluating $x^2 - y^2 = 4^2 - 3^2 = 16 - 9 = 7$."
+        },
+        {
+          "q": "Grid-in: For $x > 0$, the expression $\\frac{\\sqrt[3]{x^5}}{\\sqrt{x^3}}$ is equivalent to $x^a$. What is the value of $a$?",
+          "topic": "Exponents & Radicals",
+          "type": "grid",
+          "answer": [
+            "1/6",
+            "0.167",
+            ".167",
+            "0.166"
+          ],
+          "explanation": "Rewrite with fractional exponents: $\\frac{x^{5/3}}{x^{3/2}} = x^{5/3 - 3/2} = x^{10/6 - 9/6} = x^{1/6}$."
+        },
+        {
+          "q": "Grid-in: A right circular cone has a height of $12$ inches and a radius of $5$ inches. A cylindrical water tank has a radius of $10$ inches and a height of $6$ inches. How many full cones of water are required to fill the empty cylindrical tank?",
+          "topic": "Volume & Geometry",
+          "type": "grid",
+          "answer": [
+            "6"
+          ],
+          "explanation": "Volume of cone $= \\frac{1}{3}\\pi (5^2)(12) = 100\\pi$. Volume of cylinder $= \\pi (10^2)(6) = 600\\pi$. Number of cones $= \\frac{600\\pi}{100\\pi} = 6$."
+        },
+        {
+          "q": "Grid-in: A bag contains 4 red, 6 blue, and $N$ green marbles. If a marble is chosen at random, the probability that it is green is $\\frac{3}{8}$. What is the value of $N$?",
+          "topic": "Probability",
+          "type": "grid",
+          "answer": [
+            "6"
+          ],
+          "explanation": "$\\frac{N}{10 + N} = \\frac{3}{8} \\implies 8N = 30 + 3N \\implies 5N = 30 \\implies N = 6$."
+        }
+      ]
+    }
+  ]
+}

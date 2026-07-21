@@ -263,6 +263,23 @@ table.history td.actions button { font-size: 13.5px; }
 
 .qtext { white-space: pre-line; font-size: 16px; margin: 0 0 1.1rem; }
 
+/* Math rendering: a span KaTeX can't compile degrades to this — visible to a
+   proctor, not alarming to a student. */
+.math-error {
+  font-family: var(--font-mono);
+  font-size: 0.95em;
+  background: var(--warn-soft);
+  color: var(--warn);
+  border-radius: 4px;
+  padding: 0 4px;
+  text-decoration: underline dotted;
+}
+/* Keep display math from overflowing narrow question cards. */
+.katex-display { margin: 0.6em 0; overflow-x: auto; overflow-y: hidden; }
+/* Inline fractions are small by default; nudge up so choices stay legible. */
+.choice .katex { font-size: 1.15em; }
+.qtext .katex { font-size: 1.05em; }
+
 /* Demo mode switch */
 .switch { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
 .switch input { position: absolute; opacity: 0; width: 0; height: 0; }

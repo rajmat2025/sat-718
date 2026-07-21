@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { validateTest, slugify } from "../lib/testSchema";
+import { normalizeTest } from "../lib/math/normalize";
+import MathText from "../lib/math/MathText";
 
 const LS_IMPORTED = "satrunner.importedTests"; // legacy per-browser store — migrated to the server for admins
 const LS_PENDING = "satrunner.pendingAttempts"; // completed attempts not yet confirmed saved on the server
@@ -206,12 +208,12 @@ function ReviewSections({ sections }) {
                 <span className="faint" style={{ marginLeft: 8 }}>Question {a.n}</span>
                 {a.topic && <span className="topic-pill">{a.topic}</span>}
               </p>
-              <p className="qtext" style={{ fontSize: 14.5, marginBottom: 6 }}>{a.q}</p>
+              <MathText className="qtext" block style={{ fontSize: 14.5, marginBottom: 6 }}>{a.q}</MathText>
               <p className="muted" style={{ margin: 0 }}>
-                Your answer: {a.given}
-                {!a.right && <> · Correct: {a.correct}</>}
+                Your answer: <MathText>{a.given}</MathText>
+                {!a.right && <> · Correct: <MathText>{a.correct}</MathText></>}
               </p>
-              {a.explanation && <p className="muted" style={{ margin: "4px 0 0" }}>{a.explanation}</p>}
+              {a.explanation && <p className="muted" style={{ margin: "4px 0 0" }}><MathText>{a.explanation}</MathText></p>}
             </div>
           ))}
         </div>
@@ -352,7 +354,7 @@ export default function App() {
   async function loadTests() {
     try {
       const r = await fetch("/api/tests");
-      if (r.ok) setCustomTests((await r.json()).tests || []);
+      if (r.ok) setCustomTests(((await r.json()).tests || []).map(withMath));
     } catch {}
     fetch("/tests/manifest.json")
       .then((r) => (r.ok ? r.json() : { tests: [] }))
@@ -361,12 +363,23 @@ export default function App() {
         for (const file of m.tests || []) {
           try {
             const t = await fetch(`/tests/${file}`).then((r) => r.json());
-            if (!validateTest(t)) loaded.push(t);
+            if (!validateTest(t)) loaded.push(withMath(t));
           } catch {}
         }
         setBuiltIn(loaded);
       })
       .catch(() => {});
+  }
+
+  // Math notation is normalized ONCE here, at load time — never during a timed
+  // section. Everything downstream renders already-normalized strings.
+  function withMath(t) {
+    try {
+      const { test: normalized, report } = normalizeTest(t);
+      return { ...normalized, mathReport: report };
+    } catch {
+      return t; // normalization must never prevent a test from loading
+    }
   }
 
   // On mount, discover the current session and restore the QA demo switch.
@@ -1164,7 +1177,7 @@ export default function App() {
               {s.questions.map((q, qi) => (
                 <div className="inspect-q" key={qi}>
                   <p className="qtext" style={{ fontSize: 14.5, marginBottom: 6 }}>
-                    <strong>{qi + 1}.</strong> {q.q}
+                    <strong>{qi + 1}.</strong> <MathText>{q.q}</MathText>
                     {q.topic && <span className="topic-pill">{q.topic}</span>}
                     {q.type === "grid" && <span className="topic-pill" style={{ background: "var(--line)", color: "var(--ink-soft)" }}>grid-in</span>}
                   </p>
@@ -1178,13 +1191,13 @@ export default function App() {
                       {q.choices.map((c, ci) => (
                         <li key={ci} className={ci === q.answer ? "correct" : ""}>
                           <span className="letter-sm">{String.fromCharCode(65 + ci)}</span>
-                          <span>{c}</span>
+                          <MathText>{c}</MathText>
                           {ci === q.answer && <span className="tag good" style={{ marginLeft: 8 }}>correct</span>}
                         </li>
                       ))}
                     </ul>
                   )}
-                  {q.explanation && <p className="faint" style={{ margin: "6px 0 0" }}>Explanation: {q.explanation}</p>}
+                  {q.explanation && <p className="faint" style={{ margin: "6px 0 0" }}>Explanation: <MathText>{q.explanation}</MathText></p>}
                 </div>
               ))}
             </div>
@@ -1250,7 +1263,7 @@ export default function App() {
         </div>
 
         <div className="card">
-          <p className="qtext">{q.q}</p>
+          <MathText className="qtext" block>{q.q}</MathText>
           {q.type === "grid" ? (
             <div>
               <p className="faint" style={{ margin: "0 0 6px" }}>Grid-in: type your answer (fractions and decimals both accepted)</p>
@@ -1267,7 +1280,7 @@ export default function App() {
             q.choices.map((c, i) => (
               <button key={i} className={`choice${secAnswers[qIdx] === i ? " selected" : ""}`} onClick={() => setAnswer(i)}>
                 <span className="letter">{String.fromCharCode(65 + i)}</span>
-                <span>{c}</span>
+                <MathText>{c}</MathText>
               </button>
             ))
           )}

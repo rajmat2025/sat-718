@@ -1,1 +1,1 @@
-{ "tests": ["sat-diagnostic-1.json", "sat-practice-1.json"] }
+{"tests":["sat-half-length-8-5.json","sat-diagnostic-1.json","sat-practice-1.json"]}
